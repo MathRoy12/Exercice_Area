@@ -1,0 +1,8 @@
+<h1>bonjour</h1>
+
+<div *ngFor="let i of chats">
+  <div style="display: flex">
+    <p>{{ i.nom }}</p>
+    <img [src]="i.img" alt="">
+  </div>
+</div>
